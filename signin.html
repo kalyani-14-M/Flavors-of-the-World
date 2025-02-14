@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Flavors of the World </h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form-container">
+        <div class="auth-container">
+            <form id="authForm">
+                <h2 id="formTitle">Sign In</h2>
+    
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+    
+                <div id="nameField" class="input-group hidden">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+    
+                <button type="submit">Submit</button>
+    
+                <p class="toggle-text">
+                    Don't have an account? <span id="toggleLink"></span>
+                    <a href="sign-up.html"class="button">sign-up</a>
+                </p>
+            </form>
+        </div>
+        </div>
+    <footer>
+        <p>&copy; 2025 Flavors of the World. All rights reserved.</p>
+    </footer>   
+        
+
+    <script src="food.js"></script>
+</body>
+</html>
